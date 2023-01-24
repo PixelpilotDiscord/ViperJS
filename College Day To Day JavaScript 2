@@ -1,0 +1,51 @@
+// Function to get the current date and time
+Alert(“Made By C00L Mart Open-sourced”);
+function getCurrentDateTime() {
+    var currentDate = new Date();
+    console.log("Current date and time: " + currentDate);
+}
+
+// Function to convert Celsius to Fahrenheit
+function celsiusToFahrenheit(celsius) {
+    var fahrenheit = (celsius * 9/5) + 32;
+    console.log(celsius + "°C is equal to " + fahrenheit + "°F.");
+}
+
+// Function to convert Fahrenheit to Celsius
+function fahrenheitToCelsius(fahrenheit) {
+    var celsius = (fahrenheit - 32) * 5/9;
+    console.log(fahrenheit + "°F is equal to " + celsius + "°C.");
+}
+
+// Function to calculate the area of a circle
+function calculateCircleArea(radius) {
+    var area = Math.PI * Math.pow(radius, 2);
+    console.log("Area of the circle with radius " + radius + " is: " + area);
+}
+
+// Function to check if a number is prime or not
+function isPrime(num) {
+    if (num <= 1) {
+        console.log(num + " is not a prime number.");
+        return;
+    }
+
+    for (var i = 2; i < num; i++) {
+        if (num % i === 0) {
+            console.log(num + " is not a prime number.");
+            return;
+        }
+    }
+
+    console.log(num + " is a prime number.");
+}
+
+// Call the functions
+getCurrentDateTime();
+celsiusToFahrenheit(25);
+fahrenheitToCelsius(77);
+calculateCircleArea(5);
+isPrime(7);
+
+//Made By Atul1345#1706 
+//Project C00L Mart
