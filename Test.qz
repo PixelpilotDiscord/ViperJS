@@ -1,0 +1,49 @@
+title = Random Long Word Generator
+subtitle = Simply generates a random long/complicated word at each click :)
+fontSize = 180
+fontColor = black
+buttonText = randomize
+numberOfItems = 1
+itemSeperator = <hr style\="opacity:0;margin: 0.15em;"/>
+description
+	{import:simple-gen-footer}
+	$output = <p>[this.joinItems("</p><p>")]</p> // <-- don't remove this last line, it uses the special "$output" property to join and format your description as HTML paragraphs :)
+
+
+$output = [word]
+output = [w=word.selectOne]<p style\="opacity:0.5;font-size:60%;margin:0;">([w.def])</p>
+
+word
+	Ablutophobia
+		def = Fear of washing or having a bath
+	Absorbefacient
+		def = Inducing or boosting absorption
+	Adiathermancy
+		def = Impervious to radiant heat or infrared radiation or unaffected by heat waves
+	Agglutination
+		def = The construction of words from component morphemes that retain their form and meaning in spite of the blending
+	Arachibutyrophobia
+		def = One having fear about peanut butter sticking to the mouth roof
+	Aurantiaceous
+		def = Appertaining to oranges or orange trees
+	Automatonophobia
+		def = One having fear about dummies, animatronic creatures, statues of wax
+	Autothaumaturgist
+		def = A person who exudes an air of mystery around himself consciously; someone pretending to be an enigma
+	Autotonsorialist
+		def = A person who cuts his own hair
+	Automysophobia
+		def = Fear of getting dirty
+	Ballistocardiograph
+		def = An instrument which is used to detect body movements caused by heartbeats
+	Bathythermograph
+		def = An instrument that is used for recording water temperature as compared to depth
+	Batrachomyomachy
+		def = A military engagement between frogs and mice
+	Batrachophagous
+		def = A person who eats frogs
+	Bicrescentic
+		def = Having the structure of a double crescent
+	Blandiloquence
+		def = A flattery or complimentary speech
+	Brachydactylous
